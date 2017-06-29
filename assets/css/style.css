@@ -241,7 +241,10 @@ input[type=submit] {
 @media screen and (max-width: 980px) {
   .container {
     width: 100%;
-    max-width: 725px;
+    max-width: 750px;
+  }
+  #logo {
+    margin: 0 0;
   }
   .work {
     width: 100%;
@@ -250,74 +253,91 @@ input[type=submit] {
   margin-left: 0;
   }
   .main-section {
-    max-width: 400px;
+    max-width: 480px;
+    width: 50%;
+    margin: 0 15px 40px 15px;
+    padding: 30px 40px;
+  }
+  #main-container {
+    margin: 0 0 0 5%;
+    width: 100%;
+    max-width: 900px;
+    float: left;
+    padding-left: 5%;
+    padding-right: 5%;
   }
   .sidebar {
     max-width: 280px;
+    width: 40%;
+    float: left;
+    margin: 0 0 0 30px;
   }
-  .social {
-    max-width: 33%;
+  #connect {
+    width: 100%;
+    max-width: 190px
+  }
+  img.social {
+    max-width: 30%;
   }
   h2 {
     font-size: 1.2em;
     font-weight: bold;
   }
   .auth-image {
-    width: 100%;
-    margin: 0 0 20px;
+    max-width: 100%;
+    margin: 0 10px 20px 0;
   }
 }
 @media screen and (max-width: 768px) {
-  #logo {
-    margin: 0 0 0 10px;
-  }
-  #main-container {
-    max-width: 730px;
-    margin:0 20px;
-  }
-  .container {
+    .container {
     width: 100%;
+    max-width: 725px;
   }
-  .main-section {
-    min-width: 100%;
-    padding: 0 10px;
-    margin: 0 0 40px;
-  }
-  .main-section ul {
-    margin-left: 15px;
-  }
-  .submit {
-    margin: 0 0 20px 15px;
-  }
- .work {
+  .work {
     width: 45%;
   }
   .work:nth-child(even) {
-  margin-left: 40px;
-}
-  .p2 {
-    padding: 0 0 25px;
+  margin-left: 2.5%;
+  }
+  .work:nth-child(odd) {
+  margin-right: 2.5%;
+  }
+  .main-section {
+    width: 100%;
+    max-width: 750px;
+    margin: 0 15px 40px 15px;
+    padding: 30px 30px;
+  }
+  #main-container {
+    margin: 0 auto;
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
   }
   .sidebar {
-    max-width: 730px;
-    margin: 0 0 40px;
+    width: 100%;
+    max-width: 700px;
+    float: left;
+    margin: 0 15px 40px 15px;
   }
   .social {
     max-width: 33%;
   }
+  #connect {
+    width: 100%;
+    max-width: 700px
+  }
   h2 {
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-weight: bold;
+    width: 100%;
+    max-width: 700px
   }
   .auth-image {
-    width: 50%;
-    margin: 10px 20px 20px;
-  }
-  h1 {
-    margin: 25px 15px;
+    width: 55%;
+    margin: 0 20px 20px 0;
   }
 }
-
 @media screen and (max-width: 640px) {
   #masthead {
    position: static;
@@ -329,56 +349,60 @@ input[type=submit] {
     margin: 0 0;
   }
   nav {
-    min-width: 100%;
+    width: 100%;
+    max-width: 640px;
     text-align: center; 
     margin: 0 auto; 
     padding: 15px 0;
   }
   nav a {
     padding: 0 8%;
+    width: 100%;
+    display: inline;
   }
   .main-section {
-    min-width: 0px;
-    max-width: 595px;
+    width: 100%;
+    margin-left: 0;
+  }
+  .workbox {
+    padding: 0 25px;
   }
   .work {
     width: 100%;
-    padding: 0 15px;
+    padding: 0 0px;
   }
    .work img {
-    max-width: 540px;
+    width: 100%;
+   
   }
   .work h3 {
-    max-width: 540px;
+    max-width: 100%;
+    padding: 15px 0;
   }
   .work:nth-child(even) {
   margin-left: 0;
   }
-  
-  .container {
-    max-width: 640px;
-  }
   #main-container {
     padding: 0 0;
     margin: 0 15px;
+    max-width: 600px;
   }
   .main-section h1, .main-section p {
-    margin: 20px 30px 0 25px;
-    width: 540px;
-  }
-  .main-section h1 {
-    margin-bottom: 20px;
+    margin: 0 0 20px 0;
+    max-width: 540px;
   }
   img.auth-image {
-    width: 540px;
-    margin: 30px 30px 25px 25px;
+    max-width: 540px;
+    width: 100%;
+    margin: 30px 30px 25px 0px;
   }
-  .p2 {
+  p.p2 {
     padding: 0 0 25px;
+    margin: 20px 0 0 0;
   }
   .sidebar {
     min-width: none;
-    max-width: 595px;
+    max-width: 600px;
     margin: 0px 0 40px 0;
     float: left;
 
